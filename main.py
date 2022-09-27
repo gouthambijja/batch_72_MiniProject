@@ -4,7 +4,7 @@ from keras.preprocessing.image import img_to_array
 from keras.preprocessing import image
 import cv2
 import numpy as np
-
+//kakarot
 face_classifier = cv2.CascadeClassifier(r'C:\Users\manasa inturi\OneDrive\Desktop\facial emotion rec\haarcascade_frontalface_default.xml')
 classifier = load_model(r'C:\Users\manasa inturi\OneDrive\Desktop\facial emotion rec\model.h5')
 
